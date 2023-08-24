@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* 回答はここから */
+
+.table{
+  display: flex;
+  justify-content: center;
+}
+
+
+.text-box{
+  outline: 10px solid #655;
+  box-shadow: 0 0 0 6px #655;
+  border-radius: 13px;
+  background: #d2b48c;
+  width: 200px;
+  padding: 10px;
+  margin: 30px;
+}
+
+.li{
+  list-style: none;
+}
+
