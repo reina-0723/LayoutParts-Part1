@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+/* Q5-1 */
+
+.item-box {
+  text-align: center;
+  display: flex;
+}
+
+.blue-box {
+  margin: 10px;
+  width: 65px;
+  padding: 10px;
+  color: #fff;
+  background-color: #00bbdd;
+}
+
+.item-box2 {
+  text-align: center;
+  display: flex;
+  flex-direction:row-reverse;
+}
+
+.item-box3 {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.item-box4 {
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* Q5-1 */
+
+/* Q5-2 */
+
+.item-box5 {
+  text-align: center;
+  display: flex;
+}
+
+.item-box6 {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-box7 {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+/* Q5-2 */
+
+/* Q5-3 */
+
+.item-box8 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.item-box9 {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item-box10 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.item-box11 {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-box12 {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Q5-3 */
+
+/* Q5-4 */
+
+.item-box13 {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.grid-box {
+  padding: 10px;
+  color: #fff;
+  background-color: #00bbdd;
+}
+
+.item-box14 {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item-box15 {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px ;
+}
+
+.item-box16 {
+  margin-top: 20px;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
+
+
+.red-box {
+  grid-column: 1 / 3;
+  background: #dd0700;
+}
+
+.green-box {
+  grid-row: 2 / 4;
+  background: #0bdd00;
+}
+
+.yellow-box {
+  grid-column: 2 / 4;
+  background: #d9dd00;
+}
